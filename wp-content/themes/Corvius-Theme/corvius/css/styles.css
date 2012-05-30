@@ -52,6 +52,7 @@ h1 {
 
 h2 {
 	font-size:20px;
+	color: #1F3155;
 } h2.postTitle a {
 	color:#202020;
 } h2.postTitle a:hover {
@@ -77,9 +78,9 @@ h4 {
 	font-family:Arial;
 	font-size:15px;
 	font-weight:700;
-	color:/*rb_color_marked*/#BB8D13/*e*/;
+	color:/*rb_color_marked*/#3A3A3A/*e*/;
 } .postsList h4 a:hover {
-	color:/*rb_color_hover*/#765706/*e*/;
+	color:/*rb_color_hover*/#3A3A3A/*e*/;
 }
 
 h5 {
@@ -90,7 +91,7 @@ h6 {
 }
 
 a, strong.color, .blogList a:hover {
-	color:/*rb_color_link*/#BC8E14/*e*/;
+	color:/*rb_color_link*/#1F3155/*e*/;
 	text-decoration:none;
 	outline:0;
 }
@@ -101,8 +102,8 @@ a:hover, a:active, a:focus {
 	outline:0;
 }
 
-::-moz-selection { background: /*rb_color_accent*/#F3EDD9/*e*/; color: #000; text-shadow: none; }
-::selection { background: /*rb_color_accent*/#F3EDD9/*e*/; color: #000; text-shadow: none; }
+::-moz-selection { background: /*rb_color_accent*/#E0DDD5/*e*/; color: #000; text-shadow: none; }
+::selection { background: /*rb_color_accent*/#E0DDD5/*e*/; color: #000; text-shadow: none; }
 
 /*====================================
 
@@ -126,18 +127,16 @@ a:hover, a:active, a:focus {
 
 /* Header top area */
 #top {
-	background: #161616;
+	background: #FCFAF5;
 	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzE2MTYxNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzE2MTYxNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iIzBiMGIwYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMTAxMDEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-	background: -moz-linear-gradient(top, #161616 0%, #161616 50%, #0b0b0b 51%, #010101 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#161616), color-stop(50%,#161616), color-stop(51%,#0b0b0b), color-stop(100%,#010101));
-	background: -webkit-linear-gradient(top, #161616 0%,#161616 50%,#0b0b0b 51%,#010101 100%);
-	background: -o-linear-gradient(top, #161616 0%,#161616 50%,#0b0b0b 51%,#010101 100%);
-	background: -ms-linear-gradient(top, #161616 0%,#161616 50%,#0b0b0b 51%,#010101 100%);
-	background: linear-gradient(top, #161616 0%,#161616 50%,#0b0b0b 51%,#010101 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#161616', endColorstr='#010101',GradientType=0 );
+	background: -moz-linear-gradient(top, #FCFAF5 0%, #FCFAF5 50%, #F4F2ED 51%, #F4F2ED 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FCFAF5), color-stop(50%,#FCFAF5), color-stop(51%,#FCFAF5), color-stop(100%,#FCFAF5));
+	background: -webkit-linear-gradient(top, #FCFAF5 0%,#FCFAF5 50%,#F4F2ED 51%,#F4F2ED 100%);
+	background: -o-linear-gradient(top, #FCFAF5 0%,#FCFAF5 50%,#F4F2ED 51%,#F4F2ED 100%);
+	background: -ms-linear-gradient(top, #FCFAF5 0%,#FCFAF5 50%,#F4F2ED 51%,#F4F2ED 100%);
+	background: linear-gradient(top, #FCFAF5 0%,#FCFAF5 50%,#F4F2ED 51%,#F4F2ED 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FCFAF5', endColorstr='#F4F2ED',GradientType=0 );
 	/* above - beautiful css gradient :)) */
-	border-top:1px solid #212121;
-	border-bottom:1px solid #1C1C1C;
 	height:81px;
 	position:relative;
 	z-index:9999;
@@ -157,33 +156,28 @@ a:hover, a:active, a:focus {
 #top ul {
 	float:right;
 	margin-top:-2px;
+	margin-right: 60px;
 }
 
 /* Main menu */
 #top ul li {
      float: left;
-     margin-left: 20px;
-     margin-top: 32px;
+     margin-left: 7px;
+     margin-top: 34px;
 	 position:relative;
 }
 #top ul li a {
     border-radius: 3px;
-     color: #FFFFFF;
+     color: #1F3155;
      font-family: 'Vegur';
+     font-weight: bold;
      font-size: 15px;
-    padding: 8px 18px;
+    padding: 6px 8px;
      text-shadow: none;
 }
 #top ul li a:hover, #top ul li a.selected {
-	background: #232323;
-	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzIzMjMyMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ5JSIgc3RvcC1jb2xvcj0iIzIzMjMyMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzFlMWUxZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iIzE5MTkxOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxNDE0MTQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-	background: -moz-linear-gradient(top, #232323 0%, #232323 49%, #1e1e1e 50%, #191919 51%, #141414 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#232323), color-stop(49%,#232323), color-stop(50%,#1e1e1e), color-stop(51%,#191919), color-stop(100%,#141414));
-	background: -webkit-linear-gradient(top, #232323 0%,#232323 49%,#1e1e1e 50%,#191919 51%,#141414 100%);
-	background: -o-linear-gradient(top, #232323 0%,#232323 49%,#1e1e1e 50%,#191919 51%,#141414 100%);
-	background: -ms-linear-gradient(top, #232323 0%,#232323 49%,#1e1e1e 50%,#191919 51%,#141414 100%);
-	background: linear-gradient(top, #232323 0%,#232323 49%,#1e1e1e 50%,#191919 51%,#141414 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#232323', endColorstr='#141414',GradientType=0 );
+	background: #1F3155;
+	color: white;
 	/* above - beautiful css gradient :)) */
      border-bottom: 1px solid #191919;
 } .ie8 #top ul li a:hover, .ie8 #top ul li a.selected {
@@ -238,17 +232,9 @@ a:hover, a:active, a:focus {
 
 /* Header tagline(bottom) area */
 #tagline {
-	background: #f8f8f8;
-	background: -moz-linear-gradient(left, #e6e6e6 0%, #f0f0f0 15%, #f8f8f8 50%, #f0f0f0 85%, #e6e6e6 100%);
-	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#e6e6e6), color-stop(15%,#f0f0f0), color-stop(50%,#f8f8f8), color-stop(85%,#f0f0f0), color-stop(100%,#e6e6e6));
-	background: -webkit-linear-gradient(left, #e6e6e6 0%,#f0f0f0 15%,#f8f8f8 50%,#f0f0f0 85%,#e6e6e6 100%);
-	background: -o-linear-gradient(left, #e6e6e6 0%,#f0f0f0 15%,#f8f8f8 50%,#f0f0f0 85%,#e6e6e6 100%);
-	background: -ms-linear-gradient(left, #e6e6e6 0%,#f0f0f0 15%,#f8f8f8 50%,#f0f0f0 85%,#e6e6e6 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e6e6', endColorstr='#e6e6e6',GradientType=1 );
-	background: linear-gradient(left, #e6e6e6 0%,#f0f0f0 15%,#f8f8f8 50%,#f0f0f0 85%,#e6e6e6 100%);
+	background: #E8E8E8;
 	/* above - beautiful css gradient :)) */
 	height:71px;
-	border-top:1px solid #000;
 	border-bottom:1px solid #DCDCDC;
 	margin-bottom:10px;
 }
@@ -781,7 +767,7 @@ hr.space {
 /* Some typographic */
 .marked {
      border-bottom: 1px solid /*rb_color_marked*/#BB8D13/*e*/;
-     color: /*rb_color_marked*/#BB8D13/*e*/;
+     color: /*rb_color_marked*/#1F3155/*e*/;
      font-weight: 700;
 }
 .emphed {
@@ -908,9 +894,10 @@ a[rel] {
 	font-size:15px;
 	font-weight:700;
 	margin-bottom:0;
+	color:#1F3155;
 }
 .teamList span {
-     color: /*rb_color_marked*/#BB8D13/*e*/;
+     color: /*rb_color_marked*/#4D5D77/*e*/;
      display: block;
      font-size: 12px;
      margin-bottom: 10px;
@@ -1293,18 +1280,20 @@ blockquote {
 }
 .pagination li a {
 	font-size:13px;
-	color:#676767;
+	color:#595959;
 	border-radius:3px;
 	padding:4px 8px;
+	background: #F4F4F4;
+	text-shadow: none; 
 }
 .pagination li a:hover {
-	color:#6B5A22;
-	background:/*rb_color_accent*/#F3EDD9/*e*/;
+	color:white;
+	background:/*rb_color_accent*/#1F3155/*e*/;
 }
 .pagination li a.selected {
 	font-weight:700;
-	color:#6B5A22;
-	background:/*rb_color_accent*/#F3EDD9/*e*/;
+	color:white;
+	background:/*rb_color_accent*/#1F3155/*e*/;
 }
 .pagination .btnPrev, .pagination .btnNext {
 	padding:0 !important;
@@ -1370,13 +1359,13 @@ blockquote {
 }
 .btnNext {
 	right:8px;
-	background:url(../images/defSprites.png) no-repeat 0 -327px;
+	background: white url(../images/defSprites.png) no-repeat 0 -327px!important;
 } .btnNext:hover {
-	background:url(../images/defSprites.png) no-repeat 0 -343px !important;
+	background:white url(../images/defSprites.png) no-repeat 0 -343px !important;
 }
 .btnPrev { 
 	left:8px;
-	background:url(../images/defSprites.png) no-repeat -16px -327px;
+	background: white url(../images/defSprites.png) no-repeat -16px -327px!important;
 } .btnPrev:hover {
 	background:url(../images/defSprites.png) no-repeat -16px -343px !important;
 }
@@ -1500,9 +1489,9 @@ blockquote {
 }
  
 .blog h1 a {
-	color:#202020;
+	color:#1F3155;
 } .blog h1 a:hover {
-	color:/*rb_color_hover*/#765706/*e*/;
+	color:/*rb_color_hover*/#1F3155/*e*/;
 } .blog .secondary h1 {
 	height:25px;
 	overflow:hidden;
@@ -1517,7 +1506,11 @@ blockquote {
 	padding-left:25px;
 	font-size:11px;
 	margin:-5px 20px 13px -2px;
-} 
+	color: #4D5D77!important;
+}
+.postInfoList li a {
+	color: #4D5D77;
+}
 .date {
 	margin-top:-6px !important;
 	background:url(../images/defSprites.png) no-repeat 0 -43px;
@@ -1651,8 +1644,9 @@ blockquote {
 	padding:7px 12px 5px 12px;
 }
 .postsFilters a.selected, .postsFilters a:hover {
-	background:/*rb_color_accent*/#F3EDD9/*e*/;
-	color:#000;
+	background:/*rb_color_accent*/#1F3155/*e*/;
+	color:white;
+	text-shadow: none;
 }
 .ie7 .postsFilters {
 	margin-bottom:15px;
@@ -2064,18 +2058,9 @@ tfoot .button {
    
 /* Footer top area */
 #footer_top {
-	background: #fafafa;
-	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZhZmFmYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ3JSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjkwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmYWZhZmEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-	background: -moz-linear-gradient(top, #fafafa 0%, #ffffff 10%, #ffffff 47%, #ffffff 90%, #fafafa 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fafafa), color-stop(10%,#ffffff), color-stop(47%,#ffffff), color-stop(90%,#ffffff), color-stop(100%,#fafafa));
-	background: -webkit-linear-gradient(top, #fafafa 0%,#ffffff 10%,#ffffff 47%,#ffffff 90%,#fafafa 100%);
-	background: -o-linear-gradient(top, #fafafa 0%,#ffffff 10%,#ffffff 47%,#ffffff 90%,#fafafa 100%);
-	background: -ms-linear-gradient(top, #fafafa 0%,#ffffff 10%,#ffffff 47%,#ffffff 90%,#fafafa 100%);
-	background: linear-gradient(top, #fafafa 0%,#ffffff 10%,#ffffff 47%,#ffffff 90%,#fafafa 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#fafafa',GradientType=0 );
-	/* above - beautiful css gradient :)) */
-	border-top:1px solid /*rb_color_accent*/#F3EDD9/*e*/;
-	border-bottom:1px solid /*rb_color_accent*/#F3EDD9/*e*/;
+	background: white;
+	border-top:1px solid /*rb_color_accent*/#3B3C3D/*e*/;
+	border-bottom:1px solid /*rb_color_accent*/#3B3C3D/*e*/;
 	height:95px;
      margin-top: 50px;
 	 overflow:hidden;
@@ -2083,7 +2068,7 @@ tfoot .button {
 
 /* Newsletter design */
 .newsletter {
-     background:/*rb_color_accent*/#F3EDD9/*e*/;
+     background:/*rb_color_accent*/#E0DDD5/*e*/;
     border-radius:3px;
 	border:1px solid /*rb_color_accent*/#F3EDD9/*e*/;
      height:39px;
@@ -2122,7 +2107,7 @@ tfoot .button {
 	 float:left;
 }
 .newsletterIcon {
-    background: url(../images/mailIcon.png) no-repeat left top /*rb_color_accent2*/#F7F5E9/*e*/;
+    background: url(../images/mailIcon.png) no-repeat left top /*rb_color_accent2*/#F4F2ED/*e*/;
     display:block;
     float:left;
     text-indent:-9999px;    
@@ -2162,7 +2147,7 @@ input:focus {
 
 /* Footer middle area */
 #footer_middle {
-     background: url(../images/stBack.png) repeat-x left bottom /*rb_color_footer*/#FCFBF5/*e*/;
+     background: url(../images/stBack.png) repeat-x left bottom /*rb_color_footer*/#F4F2ED/*e*/;
      border-bottom: 2px solid #DAD9D7;
 	 overflow:hidden;
 }
@@ -2336,17 +2321,9 @@ input:focus {
 
 /* Footer bottom area */
 #footer_bottom {
-	background: #161616;
-	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzE2MTYxNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzE2MTYxNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iIzBiMGIwYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMTAxMDEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-	background: -moz-linear-gradient(top, #161616 0%, #161616 50%, #0b0b0b 51%, #010101 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#161616), color-stop(50%,#161616), color-stop(51%,#0b0b0b), color-stop(100%,#010101));
-	background: -webkit-linear-gradient(top, #161616 0%,#161616 50%,#0b0b0b 51%,#010101 100%);
-	background: -o-linear-gradient(top, #161616 0%,#161616 50%,#0b0b0b 51%,#010101 100%);
-	background: -ms-linear-gradient(top, #161616 0%,#161616 50%,#0b0b0b 51%,#010101 100%);
-	background: linear-gradient(top, #161616 0%,#161616 50%,#0b0b0b 51%,#010101 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#161616', endColorstr='#010101',GradientType=0 );
+	background: #595959;
+	color: white;
 	/* above - beautiful css gradient :)) */
-     border-bottom: 4px solid #1C1C1C;
      border-top: 1px solid #F5F4EE;
      height: 61px;
 }
@@ -2362,7 +2339,7 @@ input:focus {
 }
 
 #footer_bottom li {
-     border-left: 1px solid #646464;
+     border-left: 1px solid white;
      float: left;
      height: 9px;
      margin-right: 10px;
@@ -2371,16 +2348,15 @@ input:focus {
 }
 
 #footer_bottom li a {
-     color: #DCD5C1;
+     color: white;
      display: block;
      font-size: 12px;
      font-weight: 700;
      margin-top: -8px;
-     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
 }
-
+#footer_bottom a { color: white; text-shadow: none; }
 #footer_bottom p {
-     color: #B2B2B2;
+     color: white;
      float: right;
      font-size: 12px;
      margin-top: 20px;
@@ -3136,3 +3112,7 @@ background: url("../images/projekktorTheme/start.png") no-repeat center center t
 .left img.left {
 	float:none;
 }
+
+#logo { display: block; position: absolute; top: 0; left: 0; margin-top:-18px; margin-left:-8px; }
+
+.social { border-top: 1px solid #F1F1EF; padding-top: 1.5em; }

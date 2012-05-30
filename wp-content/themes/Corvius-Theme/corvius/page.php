@@ -28,7 +28,7 @@ get_header(); ?>
 
 	<?php endwhile; ?>
 	
-	<?php if($post_layout == 'Right Sidebar'){
+	<?php if(is_home()){
 			?><div id="sidebar" class="grid_5 prefix_1 blog"><?php
 					dynamic_sidebar($post_sidebar);
 			?></div>

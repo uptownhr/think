@@ -67,16 +67,14 @@
 	<div id="header">
 	
 		<div id="top" class="gradient">
-			<div class="container_16">
+			<div class="container_16" style="position:relative">
 			
 				<!-- Display Logo -->
-				<a href="<?php echo home_url('/'); ?>"><img src="<?php 
-						if(get_option_tree('rb_logo_path', $theme_options) != '') {
-							get_option_tree('rb_logo_path', $theme_options, true);
-						} else {
-							get_template_directory_uri();
-							echo '/images/logo.png';
-						}	?>" alt="<?php echo get_bloginfo('name'); ?>" /></a>
+				<a href="/" id="logo"><img src="/wp-content/themes/Corvius-Theme/corvius/img/logo.png" /></a>
+				
+				<div style="position:absolute; top: 34px; right: 0; height:16px;width:16px;padding: 0 0 0 25px;border-left: 1px solid #c5c8cd;">
+					<a href="" target="_blank" style="padding:0;margin:0;"><img src="/wp-content/themes/Corvius-Theme/corvius/img/icon-facebook.png" style="margin:0"></a>
+				</div>
 				
 				<?php
 				
@@ -102,7 +100,7 @@
 			<!-- If this is not the home page(with a slider), then display the tagline and the CAT button/Search form -->
 		
 			<div id="tagline" class="gradient">
-				<div class="container_16">
+				<div class="container_16" style="padding-left:25px;padding-top:5px;">
 					<h1><?php
 						if($post_tagline == '')
 							the_title(); 
@@ -128,7 +126,7 @@
 						if(get_option_tree('rb_parallaxy_back', $theme_options, false) != '')
 							echo ' style="background-image:url(' . get_option_tree('rb_parallaxy_back', $theme_options, false) . ') !important"';
 						?>>
-						<div class="radial gradient">
+						<div class="radial gradient" style="margin-top:-2px">
 							<div class="evoTag"><p class="hidden sliderTimer"><?php get_option_tree('rb_parallaxy_timer', $theme_options, true); ?></p></div>
 							<div class="slidesHolder">
 								<?php
@@ -215,7 +213,7 @@
 						if(get_option_tree('rb_nivo_back', $theme_options, false) != '') 
 							echo ' style="background-image:url(' . get_option_tree('rb_nivo_back', $theme_options, false) . ') !important"';
 						?>>
-						<div class="radial gradient">
+						<div class="radial gradient" style="margin-top:-6px">
 							<div class="slidesHolder">
 								<?php
 									$slides = get_option_tree('rb_nivo_slides', $theme_options, false, true);
