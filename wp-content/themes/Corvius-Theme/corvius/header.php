@@ -126,7 +126,7 @@
 						if(get_option_tree('rb_parallaxy_back', $theme_options, false) != '')
 							echo ' style="background-image:url(' . get_option_tree('rb_parallaxy_back', $theme_options, false) . ') !important"';
 						?>>
-						<div class="radial gradient" style="margin-top:-2px">
+						<div class="" style="margin-top:-2px">
 							<div class="evoTag"><p class="hidden sliderTimer"><?php get_option_tree('rb_parallaxy_timer', $theme_options, true); ?></p></div>
 							<div class="slidesHolder">
 								<?php
@@ -150,11 +150,11 @@
 								<div class="sliderActions clearfix">
 									<?php
 									if(get_option_tree('rb_parallaxy_action11', $theme_options, false) != '')
-										echo '<a class="button large black" href="' . get_option_tree('rb_parallaxy_action12', $theme_options, false) . '" target="_blank">' . get_option_tree('rb_parallaxy_action11', $theme_options, false) . '</a>';
+										echo '<a class="button large blue" href="' . get_option_tree('rb_parallaxy_action12', $theme_options, false) . '" target="_blank">' . get_option_tree('rb_parallaxy_action11', $theme_options, false) . '</a>';
 									if(get_option_tree('rb_parallaxy_action3', $theme_options, false) != '')
 										echo '<p>' . get_option_tree('rb_parallaxy_action3', $theme_options, false) . '</p>';
 									if(get_option_tree('rb_parallaxy_action21', $theme_options, false) != '')
-										echo '<a class="button large transparent" href="' . get_option_tree('rb_parallaxy_action22', $theme_options, false) . '" target="_blank">' . get_option_tree('rb_parallaxy_action21', $theme_options, false) . '</a>';
+										echo '<a class="button large transparentblue" href="' . get_option_tree('rb_parallaxy_action22', $theme_options, false) . '" target="_blank">' . get_option_tree('rb_parallaxy_action21', $theme_options, false) . '</a>';
 									?>
 								</div>
 							</div>
